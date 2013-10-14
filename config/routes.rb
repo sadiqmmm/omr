@@ -1,13 +1,13 @@
 Omrails::Application.routes.draw do
   resources :pins
 
-
   devise_for :users
 
   root to: "pages#home"
-  get "about" => "pages#about"
-  get "pages/home"
 
+  get "about" => "pages#about"
+
+  get "pages/home"
   get "pages/about"
 
   # The priority is based upon order of creation:
