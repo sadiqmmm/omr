@@ -4,6 +4,18 @@ gem 'rails', '3.2.14'
 
 gem 'jquery-rails'
 
+# Puma web server
+gem 'puma', '2.6.0'
+
+# Devise for authentication
+gem 'devise'
+
+# Simple Form
+gem 'simple_form'
+
+# paperclip
+gem 'paperclip'
+
 # Assets group
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -20,10 +32,3 @@ end
 group :production do
 	gem 'pg'
 end
-
-# Puma web server
-gem 'puma', '2.6.0'
-
-# Devise for authentication
-gem 'devise'
-gem 'simple_form'
