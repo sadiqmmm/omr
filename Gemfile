@@ -14,7 +14,7 @@ gem 'devise'
 gem 'simple_form'
 
 # paperclip
-gem 'paperclip'
+gem "paperclip", "~> 3.5.1"
 
 # Assets group
 group :assets do
